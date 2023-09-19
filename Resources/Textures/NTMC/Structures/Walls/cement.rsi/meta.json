@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "https://github.com/Fray2/RU-CMSS13/blob/master/icons/turf/walls/walls.dmi",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "cement0",
+            "directions": 4
+        },
+        {
+            "name": "cement1",
+            "directions": 4
+        },
+        {
+            "name": "cement2",
+            "directions": 4
+        },
+        {
+            "name": "cement3",
+            "directions": 4
+        },
+        {
+            "name": "cement4",
+            "directions": 4
+        },
+        {
+            "name": "cement5",
+            "directions": 4
+        },
+        {
+            "name": "cement6",
+            "directions": 4
+        },
+        {
+            "name": "cement7",
+            "directions": 4
+        },
+        {
+            "name": "full"
+        }
+    ]
+}
