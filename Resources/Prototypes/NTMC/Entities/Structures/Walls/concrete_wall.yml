@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseWall
+  id: WallCement
+  name: cement wall
+  components:
+    - type: Tag
+      tags:
+        - Wall
+        - RCDDeconstructWhitelist
+    - type: Sprite
+      sprite: NTMC/Structures/Walls/cement.rsi
+    - type: Icon
+      sprite: NTMC/Structures/Walls/cement.rsi
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 300
+          behaviors:
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                Girder:
+                  min: 1
+                  max: 1
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+    - type: IconSmooth
+      key: walls
+      base: cement
