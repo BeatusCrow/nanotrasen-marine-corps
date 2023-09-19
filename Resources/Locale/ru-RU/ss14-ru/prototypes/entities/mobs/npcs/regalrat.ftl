@@ -1,0 +1,11 @@
+ent-MobRatKing = крысиный король
+    .desc = Он крысюк и он тут босс.
+ent-MobRatKingBuff = { ent-MobRatKing }
+    .suffix = Качок
+    .desc = { ent-MobRatKing.desc }
+ent-MobRatServant = крысиный слуга
+    .desc = Он мини-крысюк и он тут не босс.
+ent-ActionRatKingRaiseArmy = Raise Army
+    .desc = Spend some hunger to summon an allied rat to help defend you.
+ent-ActionRatKingDomain = Rat King's Domain
+    .desc = Spend some hunger to release a cloud of miasma into the air.
