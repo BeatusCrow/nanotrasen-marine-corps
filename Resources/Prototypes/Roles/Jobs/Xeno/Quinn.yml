@@ -1,0 +1,12 @@
+- type: job
+  id: Quinn
+  name: job-name-quinn
+  description: job-description-quinn
+  playTimeTracker: JobQuinn
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 0
+  canBeAntag: false
+  icon: "JobIconQuinn"
+  supervisors: job-supervisors-quinn
+  jobEntity: MobXenoPraetorian

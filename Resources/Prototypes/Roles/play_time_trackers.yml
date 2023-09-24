@@ -18,7 +18,115 @@
 
 - type: playTimeTracker
   id: JobCaptain
+# Marine tracker -------------------------
+- type: playTimeTracker
+  id: JobAlfaMarine
 
+- type: playTimeTracker
+  id: JobDeltaMarine
+
+- type: playTimeTracker
+  id: JobBravoMarine
+
+- type: playTimeTracker
+  id: JobCharlieMarine
+# Medic tracker ---------------------------
+- type: playTimeTracker
+  id: JobAlfaMedic
+
+- type: playTimeTracker
+  id: JobDeltaMedic
+
+- type: playTimeTracker
+  id: JobBravoMedic
+
+- type: playTimeTracker
+  id: JobCharlieMedic
+# Engineer tracker -------------------------
+- type: playTimeTracker
+  id: JobAlfaEngineer
+
+- type: playTimeTracker
+  id: JobDeltaEngineer
+
+- type: playTimeTracker
+  id: JobBravoEngineer
+
+- type: playTimeTracker
+  id: JobCharlieEngineer
+# Commander tracker -------------------------
+- type: playTimeTracker
+  id: JobAlfaCommander
+
+- type: playTimeTracker
+  id: JobDeltaCommander
+
+- type: playTimeTracker
+  id: JobBravoCommander
+
+- type: playTimeTracker
+  id: JobCharlieCommander
+# Specialist tracker ------------------------
+- type: playTimeTracker
+  id: JobAlfaSpecialist
+
+- type: playTimeTracker
+  id: JobDeltaSpecialist
+
+- type: playTimeTracker
+  id: JobBravoSpecialist
+
+- type: playTimeTracker
+  id: JobCharlieSpecialist
+# Military Police ----------------------------
+- type: playTimeTracker
+  id: JobMilitaryPoliceman
+
+- type: playTimeTracker
+  id: JobMilitaryPoliceOfficer
+# MilitaryScientist ---------------------------
+- type: playTimeTracker
+  id: JobMilitaryScientist
+# Cargo ---------------------------------------
+- type: playTimeTracker
+  id: JobSupplyOfficer
+
+- type: playTimeTracker
+  id: JobRigger
+# Medic ---------------------------------------
+- type: playTimeTracker
+  id: JobMilitaryMedic
+
+- type: playTimeTracker
+  id: JobMilitaryMainMedic
+# Command -------------------------------------
+- type: playTimeTracker
+  id: JobHeadOperations
+
+- type: playTimeTracker
+  id: JobFieldCommander
+
+- type: playTimeTracker
+  id: JobStaffOfficer
+
+- type: playTimeTracker
+  id: JobPilotOfficer
+# Xeno ----------------------------------------
+- type: playTimeTracker
+  id: JobKseno
+
+- type: playTimeTracker
+  id: JobRuni
+
+- type: playTimeTracker
+  id: JobQuinn
+
+- type: playTimeTracker
+  id: JobPretor
+
+- type: playTimeTracker
+  id: JobCrusher
+#----------------------------------------------
 - type: playTimeTracker
   id: JobCargoTechnician
 

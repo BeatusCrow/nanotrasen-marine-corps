@@ -1,0 +1,12 @@
+- type: job
+  id: Runi
+  name: job-name-runi
+  description: job-description-runi
+  playTimeTracker: JobRuni
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 0
+  canBeAntag: false
+  icon: "JobIconRuni"
+  supervisors: job-supervisors-quinn
+  jobEntity: MobXenoPraetorian

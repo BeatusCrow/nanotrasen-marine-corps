@@ -1,0 +1,12 @@
+- type: job
+  id: Pretor
+  name: job-name-pretor
+  description: job-description-pretor
+  playTimeTracker: JobPretor
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 0
+  canBeAntag: false
+  icon: "JobIconPretor"
+  supervisors: job-supervisors-quinn
+  jobEntity: MobXenoPraetorian

@@ -1,0 +1,12 @@
+- type: job
+  id: Kseno
+  name: job-name-kseno
+  description: job-description-kseno
+  playTimeTracker: JobKseno
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 0
+  canBeAntag: false
+  icon: "JobIconKseno"
+  supervisors: job-supervisors-quinn
+  jobEntity: MobXenoPraetorian

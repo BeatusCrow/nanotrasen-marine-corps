@@ -1,0 +1,31 @@
+- type: job
+  id: AlfaMarine
+  name: job-name-alfa-marine
+  description: job-description-alfamarine
+  playTimeTracker: JobAlfaMarine
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: AlphaGarrison
+      time: 0
+  startingGear: AlfaMarineGear
+  icon: "JobIconAlfaMarine"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+    - Maintenance
+
+- type: startingGear
+  id: AlfaMarineGear
+  equipment:
+    head: ClothingHeadHatWarden
+    jumpsuit: ClothingUniformJumpsuitWarden
+    back: ClothingBackpackSecurityFilled
+    eyes: ClothingEyesGlassesSecurity
+    outerClothing: ClothingOuterCoatWarden
+    id: WardenPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58Nonlethal
+  innerclothingskirt: ClothingUniformJumpskirtWarden
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled

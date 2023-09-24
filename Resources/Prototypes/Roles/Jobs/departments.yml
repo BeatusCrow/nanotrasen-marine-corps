@@ -1,101 +1,103 @@
 - type: department
-  id: Cargo
-  description: department-Cargo-description
-  color: "#A46106"
+  id: AlphaGarrison
+  description: department-AlphaGarrison-description
+  color: "#B22222"
   roles:
-  - CargoTechnician
-  - Quartermaster
-  - SalvageSpecialist
+    - AlfaMarine
+    - AlfaMedic
+    - AlfaEngineer
+    - AlfaCommander
+    - AlfaSpecialist
 
 - type: department
-  id: Civilian
-  description: department-Civilian-description
-  color: "#9FED58"
+  id: DeltaGarrison
+  description: department-AlphaGarrison-description
+  color: "#1E90FF"
   roles:
-  - Bartender
-  - Borg
-  - Botanist
-  - Boxer
-  - Chaplain
-  - Chef
-  - Clown
-  - HeadOfPersonnel
-  - Janitor
-  - Lawyer
-  - Librarian
-  - Mime
-  - Musician
-  - Passenger
-  - Reporter
-  - Zookeeper
-  - ServiceWorker
+    - DeltaMarine
+    - DeltaMedic
+    - DeltaEngineer
+    - DeltaCommander
+    - DeltaSpecialist
+
+- type: department
+  id: BravoGarrison
+  description: department-AlphaGarrison-description
+  color: "#FFD700"
+  roles:
+    - BravoMarine
+    - BravoMedic
+    - BravoEngineer
+    - BravoCommander
+    - BravoSpecialist
+
+- type: department
+  id: CharlieGarrison
+  description: department-AlphaGarrison-description
+  color: "#8A2BE2"
+  roles:
+    - CharlieMarine
+    - CharlieMedic
+    - CharlieEngineer
+    - CharlieCommander
+    - CharlieSpecialist
+
+- type: department
+  id: MilitaryPolice
+  description: department-MilitaryPolice-description
+  color: "#DC143C"
+  roles:
+    - MilitaryPoliceman
+    - MilitaryPoliceOfficer
+
+- type: department
+  id: MilitaryScientist
+  description: department-MilitaryScientist-description
+  color: "#C71585"
+  roles:
+    - MilitaryScientist
+
+- type: department
+  id: LogisticsSupport
+  description: department-LogisticsSupport-description
+  color: "#FF8C00"
+  roles:
+    - SupplyOfficer
+    - Rigger
+
+- type: department
+  id: MedicalUnit
+  description: department-MedicalUnit-description
+  color: "#20B2AA"
+  roles:
+    - MilitaryMedic
+    - MilitaryMainMedic
+
+- type: department
+  id: ConstructionBattalion
+  description: department-ConstructionBattalion-description
+  color: "#F0E68C"
+  roles:
+    - ChiefShipsEngineer
+    - ShipsEngineer
 
 - type: department
   id: Command
   description: department-Command-description
-  color: "#334E6D"
+  color: "#7FFFD4"
   roles:
-  - Captain
-  - CentralCommandOfficial
-  - ChiefEngineer
-  - ChiefMedicalOfficer
-  - HeadOfPersonnel
-  - HeadOfSecurity
-  - ResearchDirector
-  - Quartermaster
+    - HeadOperations
+    - FieldCommander
+    - StaffOfficer
+    - PilotOfficer
 
 - type: department
-  id: Engineering
-  description: department-Engineering-description
-  color: "#EFB341"
+  id: Xeno
+  description: department-Xeno-description
+  color: "#4B0082"
   roles:
-  - AtmosphericTechnician
-  - ChiefEngineer
-  - SeniorEngineer
-  - StationEngineer
-  - TechnicalAssistant
-
-- type: department
-  id: Medical
-  description: department-Medical-description
-  color: "#52B4E9"
-  roles:
-  - Chemist
-  - ChiefMedicalOfficer
-  - MedicalDoctor
-  - MedicalIntern
-  - Psychologist
-  - Paramedic
-  - SeniorPhysician
-
-- type: department
-  id: Security
-  description: department-Security-description
-  color: "#DE3A3A"
-  roles:
-  - HeadOfSecurity
-  - SecurityCadet
-  - SecurityOfficer
-  - SeniorOfficer
-  - Detective
-  - Warden
-
-- type: department
-  id: Science
-  description: department-Science-description
-  color: "#D381C9"
-  roles:
-  - ResearchDirector
-  - SeniorResearcher
-  - Scientist
-  - ResearchAssistant
-
-- type: department
-  id: Specific
-  description: department-Specific-description
-  color: "#9FED58"
-  roles:
-  - Boxer
-  - Reporter
-  - Zookeeper
-  - Psychologist
+    - Crusher
+    - Kseno
+    - Pretor
+    - Quinn
+    - Runi

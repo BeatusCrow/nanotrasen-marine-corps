@@ -1,0 +1,12 @@
+- type: job
+  id: Crusher
+  name: job-name-crusher
+  description: job-description-crusher
+  playTimeTracker: JobCrusher
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 0
+  canBeAntag: false
+  icon: "JobIconCrusher"
+  supervisors: job-supervisors-quinn
+  jobEntity: MobXenoPraetorian

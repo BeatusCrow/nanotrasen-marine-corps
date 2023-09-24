@@ -1,0 +1,43 @@
+- type: job
+  id: MilitaryMedic
+  name: job-name-militarymedic
+  description: job-description-militarymedic
+  playTimeTracker: JobMilitaryMedic
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: AlphaGarrison
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobAlfaMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobDeltaMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobBravoMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobCharlieMarine
+      time: 0
+  startingGear: MilitaryMedicGear
+  icon: "JobIconMilitaryMedic"
+  supervisors: job-supervisors-mainmilmedic
+  canBeAntag: false
+  access:
+    - Maintenance
+
+- type: startingGear
+  id: MilitaryMedicGear
+  equipment:
+    head: ClothingHeadHatWarden
+    jumpsuit: ClothingUniformJumpsuitWarden
+    back: ClothingBackpackSecurityFilled
+    eyes: ClothingEyesGlassesSecurity
+    outerClothing: ClothingOuterCoatWarden
+    id: WardenPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58Nonlethal
+  innerclothingskirt: ClothingUniformJumpskirtWarden
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled
