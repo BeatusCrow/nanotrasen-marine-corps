@@ -22,15 +22,18 @@
   minPlayers: 0
   stations:
     Dev:
-      stationProto: StandardNanotrasenStation
+      stationProto: TestStation
       components:
         - type: StationNameSetup
           mapNameTemplate: "Dev"
         - type: StationJobs
           overflowJobs:
-          - Captain
+          - AlfaMarine
           availableJobs:
-            Captain: [ -1, -1 ]
+            AlfaMarine: [ -1, -1 ]
+            Quinn: [ -1, -1]
+            AlfaMedic: [ -1, -1 ]
+            AlfaCommander: [ -1, -1 ]
 
 - type: gameMap
   id: TestTeg
