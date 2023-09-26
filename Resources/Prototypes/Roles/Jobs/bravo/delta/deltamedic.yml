@@ -1,0 +1,43 @@
+- type: job
+  id: DeltaMedic
+  name: job-name-delta-medic
+  description: job-description-deltamedic
+  playTimeTracker: JobDeltaMedic
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: DeltaGarrison
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobAlfaMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobDeltaMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobBravoMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobCharlieMarine
+      time: 0
+  startingGear: DeltaMedicGear
+  icon: "JobIconDeltaMedic"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+    - Maintenance
+
+- type: startingGear
+  id: DeltaMedicGear
+  equipment:
+    head: ClothingHeadHatWarden
+    jumpsuit: ClothingUniformJumpsuitWarden
+    back: ClothingBackpackSecurityFilled
+    eyes: ClothingEyesGlassesSecurity
+    outerClothing: ClothingOuterCoatWarden
+    id: WardenPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58Nonlethal
+  innerclothingskirt: ClothingUniformJumpskirtWarden
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled

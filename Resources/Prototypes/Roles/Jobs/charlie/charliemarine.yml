@@ -1,0 +1,31 @@
+- type: job
+  id: CharlieMarine
+  name: job-name-charlie-marine
+  description: job-description-charlieamarine
+  playTimeTracker: JobCharlieMarine
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: CharlieGarrison
+      time: 0
+  startingGear: CharlieMarineGear
+  icon: "JobIconCharlieMarine"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+    - Maintenance
+
+- type: startingGear
+  id: CharlieMarineGear
+  equipment:
+    head: ClothingHeadHatWarden
+    jumpsuit: ClothingUniformJumpsuitWarden
+    back: ClothingBackpackSecurityFilled
+    eyes: ClothingEyesGlassesSecurity
+    outerClothing: ClothingOuterCoatWarden
+    id: WardenPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58Nonlethal
+  innerclothingskirt: ClothingUniformJumpskirtWarden
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled
