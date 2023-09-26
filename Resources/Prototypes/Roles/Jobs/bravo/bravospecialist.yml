@@ -1,0 +1,43 @@
+- type: job
+  id: BravoSpecialist
+  name: job-name-bravo-specialist
+  description: job-description-bravospecialist
+  playTimeTracker: JobBravoSpecialist
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: BravoGarrison
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobAlfaMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobDeltaMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobBravoMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobCharlieMarine
+      time: 0
+  startingGear: BravoSpecialistGear
+  icon: "JobIconBravoSpecialist"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+    - Maintenance
+
+- type: startingGear
+  id: BravoSpecialistGear
+  equipment:
+    head: ClothingHeadHatWarden
+    jumpsuit: ClothingUniformJumpsuitWarden
+    back: ClothingBackpackSecurityFilled
+    eyes: ClothingEyesGlassesSecurity
+    outerClothing: ClothingOuterCoatWarden
+    id: WardenPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58Nonlethal
+  innerclothingskirt: ClothingUniformJumpskirtWarden
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled

@@ -1,0 +1,40 @@
+- type: job
+  id: SupplyOfficer
+  name: job-name-supplyofficer
+  description: job-description-supplyofficer
+  playTimeTracker: JobSupplyOfficer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobAlfaMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobDeltaMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobBravoMarine
+      time: 0
+    - !type:RoleTimeRequirement
+      role: JobCharlieMarine
+      time: 0
+  startingGear: SupplyOfficerGear
+  icon: "JobIconSupplyOfficer"
+  supervisors: job-supervisors-supplyofficer
+  canBeAntag: false
+  access:
+    - Maintenance
+
+- type: startingGear
+  id: SupplyOfficerGear
+  equipment:
+    head: ClothingHeadHatWarden
+    jumpsuit: ClothingUniformJumpsuitWarden
+    back: ClothingBackpackSecurityFilled
+    eyes: ClothingEyesGlassesSecurity
+    outerClothing: ClothingOuterCoatWarden
+    id: WardenPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58Nonlethal
+  innerclothingskirt: ClothingUniformJumpskirtWarden
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled

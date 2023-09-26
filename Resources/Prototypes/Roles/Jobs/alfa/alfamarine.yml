@@ -1,0 +1,20 @@
+- type: job
+  id: AlfaMarine
+  name: job-name-alfa-marine
+  description: job-description-alfamarine
+  playTimeTracker: JobAlfaMarine
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: AlphaGarrison
+      time: 0
+  startingGear: AlfaMarineGear
+  icon: "JobIconAlfaMarine"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+    - Maintenance
+
+- type: startingGear
+  id: AlfaMarineGear
+  equipment:
+    head: ClothingHeadHatWarden

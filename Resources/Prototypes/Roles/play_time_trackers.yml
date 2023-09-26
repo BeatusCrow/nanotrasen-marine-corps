@@ -3,150 +3,112 @@
 - type: playTimeTracker
   id: Overall
 
-# Jobs
+# Marine tracker -------------------------
 - type: playTimeTracker
-  id: JobAtmosphericTechnician
+  id: JobAlfaMarine
 
 - type: playTimeTracker
-  id: JobBartender
-
-- type: playTimeTracker # Used as a tracker for all borgs and midround borging.
-  id: JobBorg
+  id: JobDeltaMarine
 
 - type: playTimeTracker
-  id: JobBotanist
+  id: JobBravoMarine
 
 - type: playTimeTracker
-  id: JobCaptain
+  id: JobCharlieMarine
+# Medic tracker ---------------------------
+- type: playTimeTracker
+  id: JobAlfaMedic
 
 - type: playTimeTracker
-  id: JobCargoTechnician
+  id: JobDeltaMedic
 
 - type: playTimeTracker
-  id: JobCentralCommandOfficial
+  id: JobBravoMedic
 
 - type: playTimeTracker
-  id: JobChaplain
+  id: JobCharlieMedic
+# Engineer tracker -------------------------
+- type: playTimeTracker
+  id: JobAlfaEngineer
 
 - type: playTimeTracker
-  id: JobChef
+  id: JobDeltaEngineer
 
 - type: playTimeTracker
-  id: JobChemist
+  id: JobBravoEngineer
 
 - type: playTimeTracker
-  id: JobChiefEngineer
+  id: JobCharlieEngineer
+# Commander tracker -------------------------
+- type: playTimeTracker
+  id: JobAlfaCommander
 
 - type: playTimeTracker
-  id: JobChiefMedicalOfficer
+  id: JobDeltaCommander
 
 - type: playTimeTracker
-  id: JobClown
+  id: JobBravoCommander
 
 - type: playTimeTracker
-  id: JobDetective
+  id: JobCharlieCommander
+# Specialist tracker ------------------------
+- type: playTimeTracker
+  id: JobAlfaSpecialist
 
 - type: playTimeTracker
-  id: JobERTEngineer
+  id: JobDeltaSpecialist
 
 - type: playTimeTracker
-  id: JobERTJanitor
+  id: JobBravoSpecialist
 
 - type: playTimeTracker
-  id: JobERTLeader
+  id: JobCharlieSpecialist
+# Military Police ----------------------------
+- type: playTimeTracker
+  id: JobMilitaryPoliceman
 
 - type: playTimeTracker
-  id: JobERTMedical
+  id: JobMilitaryPoliceOfficer
+# MilitaryScientist ---------------------------
+- type: playTimeTracker
+  id: JobMilitaryScientist
+# Cargo ---------------------------------------
+- type: playTimeTracker
+  id: JobSupplyOfficer
 
 - type: playTimeTracker
-  id: JobERTSecurity
+  id: JobRigger
+# Medic ---------------------------------------
+- type: playTimeTracker
+  id: JobMilitaryMedic
 
 - type: playTimeTracker
-  id: JobHeadOfPersonnel
+  id: JobMilitaryMainMedic
+# Command -------------------------------------
+- type: playTimeTracker
+  id: JobHeadOperations
 
 - type: playTimeTracker
-  id: JobHeadOfSecurity
+  id: JobFieldCommander
 
 - type: playTimeTracker
-  id: JobJanitor
+  id: JobStaffOfficer
 
 - type: playTimeTracker
-  id: JobLawyer
+  id: JobPilotOfficer
+# Xeno ----------------------------------------
+- type: playTimeTracker
+  id: JobKseno
 
 - type: playTimeTracker
-  id: JobLibrarian
+  id: JobRuni
 
 - type: playTimeTracker
-  id: JobMedicalDoctor
+  id: JobQuinn
 
 - type: playTimeTracker
-  id: JobMedicalIntern
+  id: JobPretor
 
 - type: playTimeTracker
-  id: JobMime
-
-- type: playTimeTracker
-  id: JobMusician
-
-- type: playTimeTracker
-  id: JobPassenger
-
-- type: playTimeTracker
-  id: JobParamedic
-
-- type: playTimeTracker
-  id: JobPsychologist
-
-- type: playTimeTracker
-  id: JobQuartermaster
-
-- type: playTimeTracker
-  id: JobReporter
-
-- type: playTimeTracker
-  id: JobResearchAssistant
-
-- type: playTimeTracker
-  id: JobResearchDirector
-
-- type: playTimeTracker
-  id: JobSalvageSpecialist
-
-- type: playTimeTracker
-  id: JobScientist
-
-- type: playTimeTracker
-  id: JobSecurityCadet
-
-- type: playTimeTracker
-  id: JobSecurityOfficer
-
-- type: playTimeTracker
-  id: JobSeniorEngineer
-
-- type: playTimeTracker
-  id: JobSeniorOfficer
-
-- type: playTimeTracker
-  id: JobSeniorPhysician
-
-- type: playTimeTracker
-  id: JobSeniorResearcher
-
-- type: playTimeTracker
-  id: JobServiceWorker
-
-- type: playTimeTracker
-  id: JobStationEngineer
-
-- type: playTimeTracker
-  id: JobTechnicalAssistant
-
-- type: playTimeTracker
-  id: JobWarden
-
-- type: playTimeTracker
-  id: JobBoxer
-
-- type: playTimeTracker
-  id: JobZookeeper
+  id: JobCrusher
+#----------------------------------------------

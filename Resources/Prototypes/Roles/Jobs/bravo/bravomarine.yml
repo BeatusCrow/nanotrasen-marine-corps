@@ -1,0 +1,31 @@
+- type: job
+  id: BravoMarine
+  name: job-name-bravo-marine
+  description: job-description-bravomarine
+  playTimeTracker: JobBravoMarine
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: BravoGarrison
+      time: 0
+  startingGear: BravoMarineGear
+  icon: "JobIconBravoMarine"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+    - Maintenance
+
+- type: startingGear
+  id: BravoMarineGear
+  equipment:
+    head: ClothingHeadHatWarden
+    jumpsuit: ClothingUniformJumpsuitWarden
+    back: ClothingBackpackSecurityFilled
+    eyes: ClothingEyesGlassesSecurity
+    outerClothing: ClothingOuterCoatWarden
+    id: WardenPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58Nonlethal
+  innerclothingskirt: ClothingUniformJumpskirtWarden
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled
