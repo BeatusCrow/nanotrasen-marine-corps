@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from https://github.com/vgstation-coders/vgstation13/blob/e71d6c4fba5a51f99b81c295dcaec4fc2f58fb19/icons/mob/screen1.dmi | Brigmedic icon made by PuroSlavKing (Github) | Zombie icon made by RamZ | Zookeper by netwy (discort)",
+    "copyright": "Taken from https://github.com/vgstation-coders/vgstation13/blob/e71d6c4fba5a51f99b81c295dcaec4fc2f58fb19/icons/mob/screen1.dmi | Brigmedic icon made by PuroSlavKing (Github) | Zombie icon made by RamZ | Zookeper by netwy (discort)|All Marine Icon by BeatusSilva",
     "size": {
         "x": 8,
         "y": 8
@@ -9,6 +9,117 @@
     "states": [
         {
             "name": "Detective"
+        },
+        {
+            "name": "AlfaMarine"
+        },
+        {
+            "name": "DeltaMarine"
+        },
+        {
+            "name": "BravoMarine"
+        },
+        {
+            "name": "CharlieMarine"
+        },
+        {
+            "name": "AlfaMedic"
+        },
+        {
+            "name": "DeltaMedic"
+        },
+        {
+            "name": "BravoMedic"
+        },
+        {
+            "name": "CharlieMedic"
+        },
+        {
+            "name": "AlfaEngineer"
+        },
+        {
+            "name": "DeltaEngineer"
+        },
+        {
+            "name": "BravoEngineer"
+        },
+        {
+            "name": "CharlieEngineer"
+        },
+        {
+            "name": "AlfaCommander"
+        },
+        {
+            "name": "DeltaCommander"
+        },
+        {
+            "name": "BravoCommander"
+        },
+        {
+            "name": "CharlieCommander"
+        },
+        {
+            "name": "AlfaSpecialist"
+        },
+        {
+            "name": "DeltaSpecialist"
+        },
+        {
+            "name": "BravoSpecialist"
+        },
+        {
+            "name": "CharlieSpecialist"
+        },
+        {
+            "name": "MilitaryPoliceman"
+        },
+        {
+            "name": "MilitaryPoliceOfficer"
+        },
+        {
+            "name": "MilitaryScientist"
+        },
+        {
+            "name": "Rigger"
+        },
+        {
+            "name": "SupplyOfficer"
+        },
+        {
+            "name": "MilitaryMedic"
+        },
+        {
+            "name": "MilitaryMainMedic"
+        },
+        {
+            "name": "ChiefShipsEngineer"
+        },
+        {
+            "name": "ShipsEngineer"
+        },
+        {
+            "name": "FieldCommander"
+        },
+        {
+            "name": "PilotOfficer"
+        },
+        {
+            "name": "StaffOfficer"
+        },
+        {
+            "name": "Crusher"
+        },
+        {
+            "name": "Kseno"
+        },
+        {
+            "name": "Pretor"
+        },
+        {
+            "name": "Quinn"
+        },
+        {
+            "name": "Runi"
         },
         {
             "name": "QuarterMaster"
@@ -144,6 +255,9 @@
         },
         {
             "name": "SecurityCadet"
+        },
+        {
+            "name": "IAA"
         },
         {
             "name": "Zombie"
